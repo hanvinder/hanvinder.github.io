@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{stroke:#000000;stroke-miterlimit:10;}
+.st0{
+  fill: transparent;
+	stroke: black;
+	stroke-width: 10px;
+	stroke-dasharray: 988.00 988.00;
+  stroke-dashoffset: 988.00;
+  animation: show-it 3s forwards;
+  transition: all 1s;
+  transform: translate(100px, 60px) scale(0.01);
+  animation-delay: 0.5s;
+}
+
+@keyframes show-it {
+  100% {
+  stroke-dashoffset: 0.00;
+  transform: translate(0, 0) scale(1);
+  }
+}
+
+/*Logo*/
+.st1 {
+  stroke: black;
+  stroke-linecap: round;
+  stroke-width: 0.8;
+  stroke-dasharray: 278;
+  stroke-dashoffset: 278;
+  fill: black;
+  animation: line 6s forwards;
+}
+
+/*
+@keyframes line {
+  0% {
+    fill: transparent;
+    stroke-dashoffset: 278;
+    stroke-width: 0.8;
+  }
+  40% {
+    stroke: black;
+    stroke-dashoffset: 0;
+    stroke-width: 0.8;
+  }
+  60%, 70% {
+    fill: black;
+    stroke-dashoffset: 0;
+  }
+  80%, 100% {
+	  fill: black;
+    stroke: transparent;
+    stroke-width: 0;
+  }
+}*/
+#left{
+	fill: black;
+  transform: translate(19px, 7px);
+  stroke-width: 2;
+  stroke-dasharray: 278;
+  stroke-dashoffset: 278;
+  stroke: #fff;
+  -webkit-animation: move 4s 0.5s forwards;
+  -moz-animation: move 4s 0.5s forwards;
+  -o-animation: move 4s 0.5s forwards;
+  animation: move 4s 0.5s forwards;
+}
+#right {
+	fill: black;
+  transform: translate(-18px, -12px) ;
+  stroke-width: 2;
+  stroke-dasharray: 278;
+  stroke-dashoffset: 278;
+  stroke: #fff;
+  -webkit-animation: move 4s 0.5s forwards;
+  -moz-animation: move 4s 0.5s forwards;
+  -o-animation: move 4s 0.5s forwards;
+  animation: move 4s 0.5s forwards;
+}
+@-webkit-keyframes move {
+	80%{
+    stroke-dashoffset: 0;
+  }
+  100%{
+		transform: translate(0px, 0px) ;
+    stroke-width: 0;
+	}
+}
+
+@-moz-keyframes move {
+	80%{
+    stroke-dashoffset: 0;
+  }
+  100%{
+		transform: translate(0px, 0px) ;
+    stroke-width: 0;
+	}
+}
+
+
+@-o-keyframes move {
+	80%{
+    stroke-dashoffset: 0;
+  }
+  100%{
+		transform: translate(0px, 0px) ;
+    stroke-width: 0;
+	}
+}
+
+@keyframes move {
+	80%{
+    stroke-dashoffset: 0;
+  }
+  100%{
+		transform: translate(0px, 0px) ;
+    stroke-width: 0;
+	}
+}
+</style>
+<path class="st0" d="M186.2,200H13.8C6.2,200,0,193.8,0,186.2V13.8C0,6.2,6.2,0,13.8,0h172.3c7.6,0,13.8,6.2,13.8,13.8v172.3
+	C200,193.8,193.8,200,186.2,200z"/>
+<path id="left" class="st1" d="M25.5,124.7C84.5,17.3,84.5,17.3,84.5,17.3l-1.1,143.2L25.5,124.7z"/>
+<path id="right" class="st1" d="M178.1,73.2c-58.6,107.6-58.6,107.6-58.6,107.6l0.6-143.2L178.1,73.2z"/>
+<rect id="center" x="74.7" y="88.1" transform="matrix(0.934 -0.3572 0.3572 0.934 -28.7903 42.8624)" class="st1" width="53.9" height="22.5"/>
+<path class="st0" d="M84.5,17.3"/>
+</svg>

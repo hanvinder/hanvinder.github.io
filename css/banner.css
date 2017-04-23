@@ -1,0 +1,119 @@
+    /*Parallax*/
+
+* {margin: 0; padding: 0; border: 0 none;}
+
+.cont-slider {
+    position: relative;
+    height: 100vh;
+    max-height: 100vh;
+    width: auto;
+    min-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cont-sli {
+    position: relative;
+    height: 100vh;
+    max-height: 100vh;
+    width: auto;
+    min-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    animation: deslizante 20s ease-out 0s backwards infinite;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500%;
+    height: 100%;
+   background-color: #000;
+}
+
+.slide {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 100%;    
+    
+    background-position: center center !important;
+    background-size: cover !important;
+     margin: 0 -2px;
+}
+@media (min-width:992px){
+	.slide {
+		 background-attachment: fixed !important;
+}
+}
+.slide span {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0 50px 50px 0;
+    color: #FFF;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    top: 40vh;
+    font-size: 10vh;
+    line-height: 10vh;
+    border-left: 0 none;
+}
+@media (max-width: 560px){
+	.cont-slider {
+		height: 50vh;
+	}
+	@media (max-width: 560px){
+	.cont-sli {
+		height: 100vh;
+		
+	}}
+	.slide span {
+		 background: rgba(0, 0, 0, 0.5);
+    border-radius: 0 50px 50px 0;
+    color: #FFF;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    top: 10vh;
+    font-size: 5vh;
+    line-height: 10vh;
+    border-left: 0 none;
+	}
+}
+.ek {
+  background-image: url(http://i.istockimg.com/image-zoom/70165645/3/380/205/stock-photo-70165645-erawan-waterfall-national-park-kanjanaburi-thailand.jpg);}
+.do {
+  background-image: url(http://i.istockimg.com/image-zoom/75711607/3/380/232/stock-photo-75711607-gasadalur-village-and-its-waterfall-faroe-islands-denmark.jpg);}
+.teen {
+  background-image: url(http://i.istockimg.com/image-zoom/87999865/3/380/253/stock-photo-87999865-beautiful-tropical-sunset.jpg);}
+.char {
+  background-image: url(http://i.istockimg.com/image-zoom/95207731/3/380/254/stock-photo-95207731-tropical-sunny-beach.jpg);}
+.panj {
+  background-image: url(http://i.istockimg.com/image-zoom/91203433/3/380/253/stock-photo-91203433-mountain-stream.jpg);}
+
+
+.prod{
+	background-image: url(http://i.istockimg.com/image-zoom/82149633/3/380/253/stock-photo-82149633-nam-chon-bay-hai-van-pass-da-nang-vietnam.jpg);
+}
+.exc {
+  background-image: url(http://i.istockimg.com/image-zoom/75544033/3/380/253/stock-photo-75544033-ao-prachuap-prachuap-bay.jpg);}
+.deter{
+  background-image: url(http://i.istockimg.com/image-zoom/94174445/3/380/253/stock-photo-94174445-natural-bridge-at-yoho-national-park-in-british-columbia.jpg);}
+.cgaw {
+  background-image: url(http://i.istockimg.com/image-zoom/70820521/3/380/253/stock-photo-70820521-morning-lake-moraine-in-banff-national-park.jpg);}
+.bedf{
+  background-image: url(http://i.istockimg.com/image-zoom/67753165/3/380/230/stock-photo-67753165-nature-background-with-honey-bee-gathering-nectar.jpg);}
+
+@keyframes deslizante {
+  0% {left: 0%; }
+  15% {left: 0%; }
+  20% {left: -100%; }
+  35% {left: -100%; }
+  40% {left: -200%; }  
+  55% {left: -200%; }
+  60% {left: -300%; }
+  75% {left: -300%; }
+  80% {left: -400%; }
+  95% {left: -400%; }   
+  100% {left: 0; }
+}
