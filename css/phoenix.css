@@ -1124,7 +1124,7 @@ section #services li span {
     background-color: #020f18;
     width: 50%;
     right: 25%;
-    height: 86%;
+    height: 84%;
     margin: 0 auto;
 }
 .deco{
@@ -1261,6 +1261,10 @@ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 /************************************
 ----------------Design----------------
 *************************************/
+
+#design h1{
+ margin-bottom: 20px;
+}
 .containerdes{
   max-width: 760px;
   margin: 0 auto;
@@ -1326,6 +1330,9 @@ border-top: 2px solid #E7E9EB;
   box-shadow: 0 0 40px 40px #fff inset, 0 0 0 0 #fff;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
+}
+.col-md-9.col-sm-9.text-left.spacing, .col-md-9.col-sm-9.text-right.spacing {
+    min-height: 450px;
 }
 .desbtn:hover, .desbtn:focus {
   color: #fff;
